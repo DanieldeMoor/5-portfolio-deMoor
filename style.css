@@ -1,0 +1,59 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 0;
+    position:absolute;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    #myVideo {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #myVideo {
+        padding-top: 0;
+
+    }
+
+}
+
+* {
+    font-family: 'Permanent Marker', cursive !important ;
+}
+
+nav ul li a {
+    font-family: Poppins, sans-serif !important;
+}
+
+/* color theme */
+
+.w3-theme-l5 {color:#000 !important; background-color:#faf7fb !important}
+.w3-theme-l4 {color:#000 !important; background-color:#ede6f1 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#dccde4 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#cab3d6 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#b89ac9 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#986cb0 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#8a59a4 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#794d90 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#67427b !important}
+.w3-theme-d5 {color:#fff !important; background-color:#563767 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#faf7fb !important}
+.w3-theme-dark {color:#fff !important; background-color:#563767 !important}
+.w3-theme-action {color:#fff !important; background-color:#563767 !important}
+
+.w3-theme {color:#fff !important; background-color:#a680ba !important}
+.w3-text-theme {color:#a680ba !important}
+.w3-border-theme {border-color:#a680ba !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#a680ba !important}
+.w3-hover-text-theme:hover {color:#a680ba !important}
+.w3-hover-border-theme:hover {border-color:#a680ba !important}
